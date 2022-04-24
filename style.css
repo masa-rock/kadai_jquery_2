@@ -1,0 +1,31 @@
+.calculator{
+  width:500px;
+}
+
+.calculator_display{
+  width:100%;
+  height: 50px;
+  line-height: 50px;
+  font-size:24px;
+  background-color: #000;
+  text-align: right;
+  color:#fff;
+}
+
+.calculator_command{
+  display: flex;
+  justify-content:space-between;
+}
+
+.calculator_command div{
+  width: 100%;
+  height:40px;
+  line-height: 40px;
+  margin:2px;
+  font-weight: bold;
+  background-color:#ddd;
+  border:solid 1px #000;
+  border-radius: 3px;
+  text-align: center;
+  
+}
