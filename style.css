@@ -17,7 +17,7 @@
   justify-content:space-between;
 }
 
-.calculator_command div{
+.calculator_command button{
   width: 100%;
   height:40px;
   line-height: 40px;
@@ -27,5 +27,8 @@
   border:solid 1px #000;
   border-radius: 3px;
   text-align: center;
-  
+}
+
+button:disabled{
+  color: #000;
 }
